@@ -1,5 +1,5 @@
 {
-  "name": "sah-frontend-challenge",
+  "name": "sah-challenge-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vergara92/SAH-Frontend-challenge.git"
+    "url": "git+https://github.com/Vergara92/SAH-challenge-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vergara92/SAH-Frontend-challenge/issues"
+    "url": "https://github.com/Vergara92/SAH-challenge-backend/issues"
   },
-  "homepage": "https://github.com/Vergara92/SAH-Frontend-challenge#readme",
+  "homepage": "https://github.com/Vergara92/SAH-challenge-backend#readme",
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^16.11.0",
@@ -34,6 +34,7 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
+    "axios": "^0.23.0",
     "express": "^4.17.1"
   }
 }
