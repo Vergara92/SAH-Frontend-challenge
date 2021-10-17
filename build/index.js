@@ -4,13 +4,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
+const routes_1 = __importDefault(require("./routes"));
 const PORT = process.env.PORT || 8000;
 const app = (0, express_1.default)();
-app.get('/get-houses', (_req, res) => {
-    res.send({
-        message: 'pong'
-    });
-});
+app.use(routes_1.default);
 app.listen(PORT, () => {
     console.log('Server is running on port', PORT);
 });
